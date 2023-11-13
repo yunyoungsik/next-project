@@ -35,8 +35,10 @@ Ok to proceed? (y) y
 √ Would you like to use App Router? (recommended) ... No / Yes   
 √ Would you like to customize the default import alias (@/*)? ... No / Yes   
 √ What import alias would you like configured? ... @/*    
-4. sass 설치 `npm i sass`, gsap 설치 `npm i gsap` lenis 설치 `npm install @studio-freight/lenis`
-- 잘못 설치한 경우 npm uninstall 패키지이름
+4. sass 설치 `npm i sass`
+    -gsap 설치 `npm i gsap`
+    -lenis 설치 `npm install @studio-freight/lenis`
+- 잘못 설치한 경우 `npm uninstall 패키지이름`
 
 ##기타
 - next.js에서 이미지를 `<Image src={img01} alt="프로필 이미지" width={가로값} height={세로값} />`으로 작성해야한다
