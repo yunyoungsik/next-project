@@ -23,7 +23,6 @@ Next.js는 React의 강력한 기능을 기반으로 하면서도 프로젝트�
 </details>
 
 ## 설치
-- 잘못 설치한 경우 npm uninstall 패키지이름
 1. 폴더 생성mkdir next-porject   
 2. 이동 cd next-project   
 3. 설치 npx create-next-app@latest   
@@ -37,3 +36,7 @@ Ok to proceed? (y) y
 √ Would you like to customize the default import alias (@/*)? ... No / Yes   
 √ What import alias would you like configured? ... @/*    
 4. sass 설치 `npm i sass`, gsap 설치 `npm i gsap` lenis 설치 `npm install @studio-freight/lenis`
+- 잘못 설치한 경우 npm uninstall 패키지이름
+
+##기타
+- next.js에서 이미지를 `<Image src={img01} alt="프로필 이미지" width={가로값} height={세로값} />`으로 작성해야한다
